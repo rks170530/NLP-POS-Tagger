@@ -1,0 +1,45 @@
+Project 1 by Raman Srivastava 
+
+Part 1: tagger.py Instructions:
+
+Can Run the program using this Python command:
+	"pyhton3 <corpus-train-path>"
+	
+	Example: 'python3 tagger.py "C:/Users/Ray/Documents/CS Assignments/CS 6320/Project 1/train"'
+		     
+		     (On Windows, use "python" instead of "python3" if that is your python3 installation)
+	
+1.) Requires python base install (no extra libraries used).
+
+2.) <corpus-train-path> is the path of the corpus /train/ folder.
+
+	NOTE* The train folder MUST have all 500 documents unzipped.
+		  In the folder submitted, there is already a /train/ with the unzipped documents,
+		  provide already for you.
+		  
+Part 2: PostRNN.ipynb Instructions:
+
+0.) Go to Google Colab, sign in, and upload the "PostRNN.ipynb" file to open this Python Notebook.
+
+	NOTE*: In cased you don't want to use Google Collan, the "PostRnn.py" file is provided for you.
+	
+	NOTE**: Make sure the "Hardware accelerator" is set to 'GPU' in Google Colab.
+			The "Hardware accelerator" can be found in Runtime -> Change runtime type.
+			
+1.) Once uploaded in Google Colab, click on Runtime -> Run all and let the program execute.
+
+	Note*: The PostRNN program requires a "train.zip" that contains a "/train/" folder with
+		   all 500 (unzipped) documents. However, this file is automatically downloaded 
+		   for you by the program with "wget.download(url, fileName)".
+		   
+		   In case the "wget.download(url, fileName)" line  does not work for whatever reason,
+		   please uncomment and run the lines:
+		   
+		   # from google.colab import files
+		   # files.upload()
+		   
+		   Then, upload the "train.zip" file provided in the folder submitted when Google Colab 
+		   prompts you to.
+		   
+		   
+			
